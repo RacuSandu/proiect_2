@@ -20,14 +20,20 @@ export function MainNav({
 
          {
             href: `/${params.storeId}/billboards`,
-            label: 'Categories',
+            label: 'Billboards',
             active: pathname === `/${params.storeId}/billboards`,
         },
 
         {
             href: `/${params.storeId}/categories`,
-            label: 'Billboards',
+            label: 'Categories',
             active: pathname === `/${params.storeId}/categories`,
+        },
+
+         {
+            href: `/${params.storeId}/sizes`,
+            label: 'Sizes',
+            active: pathname === `/${params.storeId}/sizes`,
         },
 
         {
